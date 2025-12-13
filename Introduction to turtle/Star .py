@@ -1,11 +1,7 @@
 import turtle
-turtle.Screen().bgcolor("Blue")
-turtle.Screen().setup(300, 400)
-my_pen = turtle.Turtle()
-size = 0
-while True:
-    for i in range(4):
-        my_pen.forward(size+1)
-        my_pen.left(90)
-        size = size - 1
-    size = size + 1
+star = turtle.Turtle()
+star.speed(3)
+for i in range(5):
+    star.forward(100)
+    star.right(144)
+turtle.done()
