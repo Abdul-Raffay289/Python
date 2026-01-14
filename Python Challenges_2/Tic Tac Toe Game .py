@@ -72,12 +72,12 @@ def game():
             turn = '0'
         else:
             turn = 'X'
-    restart = inpt("Do You want to play again? Yes Or No")
+    restart = input("Do You want to play again? Yes Or No")
     if restart == Yes:
         for key in Board_Keys:
             The_Board[key] = ' '
 
         game()
         
-if__name__ == "__main__":
-game()
+if __name__ == "__main__":
+    game()
